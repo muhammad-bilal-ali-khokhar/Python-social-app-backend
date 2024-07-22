@@ -1,0 +1,65 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment
+venv/
+.env/
+
+# Flask specific files
+instance/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# macOS Finder
+.DS_Store
+
+# Windows thumbnails
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Distribution directories
+dist/
+build/
+
+# Environment files
+*.env
+
+# Coverage reports
+.coverage
+coverage.xml
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dask-worker-space/
+
+# Pyre type checker
+.pyre/
+
+# pytype
+.pytype/
+
+# CI/CD
+*.gitlab-ci.yml
+*.github/
+
+# Docker
+docker-compose.override.yml
+Dockerfile
